@@ -4,10 +4,10 @@
         "user": "youremail@gmail.com",
         "password": "yourpassword"
     },
-    "base_url": "https://www.amazon.de/dp/",
+    "base_url": "https://www.amazon.com/gp/product/",
     "xpath_selector": "//*[@id='priceblock_ourprice']",
     "items": [
-        ["B00ZDWLEEG",100],
-        ["B0189XZKXG", 200]
+        ["B006JNL87G",160],
+        ["B0179IU3XE",10]
     ]
 }
