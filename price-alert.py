@@ -102,6 +102,7 @@ def main():
                 items.remove(item)
             else:
                 print('Price is %s. Ignoring...' % price)
+                logging.info('Price is %s. Ignoring...' % price)
 
         if len(items):
             print('Sleeping for %d seconds' % args.poll_interval)
